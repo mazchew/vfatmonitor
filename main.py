@@ -165,38 +165,3 @@ def monitor(): #initiates monitor
 if __name__ == '__main__':
     urllib3.disable_warnings()
     monitor()
-
-
-#discord webhook stuff
-
-# {
-#   "embeds": [
-#     {
-#       "title": "New Entry Detected!",
-#       "description": "\b",
-#       "color": 5172613,
-#       "timestamp": "2021-05-03T17:12:04.687Z", 
-#       "footer": {
-#         "text": "made by maz"
-#       },
-
-
-#       "fields": [
-#         {
-#           "name": "<:thonkang:219069250692841473>",
-#           "value": "New Entry Detected on [All](https://vfat.tools/all/)"
-#         },
-#         {
-#           "name": "Test",
-#           "value": "[Link](https://hello.test)",
-#           "inline" : true
-#         },
-#         {
-#           "name": "Number of Entries",
-#           "value": "105",
-#           "inline" : true
-#         }
-#       ]
-#     }
-#   ]
-# }
