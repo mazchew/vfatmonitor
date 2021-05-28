@@ -127,14 +127,14 @@ def comparator(item, start):
         pass
     else:
         PROJECTS.append(output_item)
-    if start == 0:
-        print('Sending notification to Discord...')
-        discord_webhook(
-            title = 'New Entry Detected!',
-            description = '\b',
-            name = output_item[0],
-            url = output_item[1],
-            token = output_item[2])
+        if start == 0:
+            print('Sending notification to Discord...')
+            discord_webhook(
+                title = 'New Entry Detected!',
+                description = '\b',
+                name = output_item[0],
+                url = output_item[1],
+                token = output_item[2])
         
 
 
