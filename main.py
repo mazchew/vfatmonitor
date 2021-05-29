@@ -70,7 +70,7 @@ def test_webhook(): # Sends a test webhook
         "username": CONFIG['USERNAME'],
         "embeds": [{
             "title": "Testing Webhook",
-            "description": "test",
+            "description": "This is a test webhook to let you know that the script is running!",
             "color": int(CONFIG['COLOUR']),
             "footer": {'text': 'made by maz'},
             "timestamp": str(datetime.utcnow())
