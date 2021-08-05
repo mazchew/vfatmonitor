@@ -1,11 +1,11 @@
 # vfatmonitor
 
 
-Custom monitor for https://vfat.tools/all/ integrated with Discord's webhooks
+custom monitor for https://vfat.tools/all/ integrated with Discord's webhooks
 
 
 Steps:
-1) Download Python 3
-2) Pip install requirements.txt
-3) Configure .env file with desired settings
-4) Run the script either on localhost, or with a VPS
+1) download python 3 (bruh moment if u didn't)
+2) pip install requirements.txt
+3) configure .env file with your own settings 
+4) run the script either on localhost (if electricity is free for you), or with a server
